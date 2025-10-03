@@ -3,7 +3,7 @@ version: "3.8"
 services:
   backend:
     build: .
-    image: online-course-backend-2025:v1.0.0
+    image: online-course-backend-2025:v3.0.0
     container_name: online-course-backend-2025
     ports:
       - "8086:8086"
