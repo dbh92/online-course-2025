@@ -3,16 +3,16 @@ version: "3.8"
 services:
   backend:
     build: .
-    image: online-course-backend:v1.0.0
-    container_name: online-course-backend
+    image: online-course-backend-2025:v1.0.0
+    container_name: online-course-backend-2025
     ports:
-      - "8080:8080"
+      - "8888:8888"
     environment:
       - SPRING_PROFILES_ACTIVE=docker
     volumes:
       - /var/www/uploads:/app/uploads
     networks:
-      - app-network
+      - app-network-2025
 networks:
-  app-network:
+  app-network-2025:
     driver: bridge
