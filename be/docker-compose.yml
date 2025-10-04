@@ -6,7 +6,7 @@ services:
     image: online-course-backend-2025:v3.0.0
     container_name: online-course-backend-2025
     ports:
-      - "8086:8080"
+      - "8087:8080"
     environment:
       - SPRING_PROFILES_ACTIVE=docker
     volumes:
