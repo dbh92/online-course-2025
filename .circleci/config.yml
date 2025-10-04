@@ -146,7 +146,7 @@ jobs:
               ssh -o StrictHostKeyChecking=no ${SERVER_USER}@${SERVER_HOST} "sudo systemctl reload nginx"
             fi
 
-            echo "✅ Frontend deployment completed successfully!"
+            echo "✅ Frontend deployment completed successfully! by Huandb"
             EOF
 
             chmod +x deploy-fe.sh
